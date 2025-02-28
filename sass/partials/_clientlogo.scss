@@ -1,0 +1,23 @@
+/*====================================================
+   clientlogo-area
+ ====================================================*/
+.airline-logo-item {
+  display: inline-block;
+  @include transition(0.3s);
+  padding: 20px 20px;
+  img {
+    filter: grayscale(100%);
+    @include transition(0.3s);
+  }
+  &:hover {
+    img {
+      filter: grayscale(0);
+    }
+  }
+}
+
+.airline-logo-item-2 {
+  img {
+    filter: grayscale(0);
+  }
+}
