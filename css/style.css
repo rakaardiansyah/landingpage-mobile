@@ -10385,7 +10385,7 @@ BUTTON SWAP FLIGHT
     justify-content: space-between;
     align-items: center;
     background-color: #8C1914;
-    opacity: 0.5;
+    /* opacity: 0.5; */
     padding: 10px;
     color: white;
 }
@@ -10773,6 +10773,81 @@ BUTTON SWAP FLIGHT
 
 .site-content .container-store .product-card .rating {
     color: gold;
+    font-size: 10px;
+}
+
+/* KRISTIE > PRODUK TERLARIS */
+.container-kristieprodukall {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    max-width: 600px;
+}
+
+.container-kristieprodukall .header-slider {
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.container-kristieprodukall .header-slider .top-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #8C1914;
+    /* opacity: 0.5; */
+    padding: 10px;
+    color: white;
+}
+
+.container-kristieprodukall .produk-terlaris {
+    width: 100%;
+    padding: 0px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    max-width: 600px;
+}
+
+.container-kristieprodukall .produk-terlaris .product-card {
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.container-kristieprodukall .produk-terlaris .product-card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    background: #6ec6ca;
+}
+
+.container-kristieprodukall .produk-terlaris .product-card .title {
+    height: 30px;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 5px 0px;
+    padding: 0px 10px;
+    letter-spacing: 0.3px;
+	line-height: 1.5;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.container-kristieprodukall .produk-terlaris .product-card .price {
+    color: #333;
+    padding: 0px 10px;
+    font-size: 10px;
+}
+
+.container-kristieprodukall .produk-terlaris .product-card .rating {
+    color: gold;
+    padding: 0px 10px;
     font-size: 10px;
 }
 

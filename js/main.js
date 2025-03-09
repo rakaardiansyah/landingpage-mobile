@@ -302,7 +302,7 @@ Author Email:   contact@tecydevs.com
         $(document).ready(function(){
             $(".Modern-Slider").slick({
                 autoplay: true,         
-                autoplaySpeed: 3000,   
+                autoplaySpeed: 2100,   
                 speed: 600,         
                 slidesToShow: 4,        
                 slidesToScroll: 1,   
@@ -334,9 +334,9 @@ Author Email:   contact@tecydevs.com
                     }
                 ]
             });
-            $('.Modern-Slider a').on('click', function(e){
-                e.stopPropagation(); 
-            });
+            // $('.Modern-Slider a').on('click', function(e){
+            //     e.stopPropagation(); 
+            // });
         });
         
 
