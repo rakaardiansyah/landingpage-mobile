@@ -10483,6 +10483,7 @@ BUTTON SWAP FLIGHT
 }
 
 .site-content .kategori-brand {
+    padding: 0px 15px;
     text-align: center;
 }
 
@@ -10537,28 +10538,28 @@ BUTTON SWAP FLIGHT
 }
 
 
-.product-section {
+.site-content .product-section {
     margin: auto;
     background: white;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .site-content .product-section .tabs {
-    width: max-content;
+    width: fit-content;
     display: flex;
     justify-content: left;
-    padding: 10px 0px;
+    padding: 10px 10px;
 }
 
 .site-content .product-section .tab {
     border: 2px solid #7D0E0E !important; 
     background: #fff;
     color: #7D0E0E;
-    padding: 10px 15px;
+    padding: 10px 10px;
     border: none;
     margin: 5px;
     border-radius: 5px;
     cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
 
 .site-content .product-section .tab.active {
@@ -10665,26 +10666,36 @@ BUTTON SWAP FLIGHT
     background: #fff;
     border-radius: 10px;
     text-align: center;
+    padding: 10px;
     transition: all 0.3s ease;
+}
+
+.site-content .kategori .voucher-kristie:hover {
+    transform: scale(1.1);
 }
 
 .site-content .kategori .voucher-kristie .bgimgvoucher{
     background: #F5F5F5;
     border-radius: 5px;
-    margin: 0px 5px;
     height: auto;
 }
 
-.site-content .kategori .voucher-kristie .bgimgvoucher:hover {
-    transform: scale(1.1);
-}
-
 .site-content .kategori .voucher-kristie .bgimgvoucher img {
-    width: 80px;
-    /* height: 80px; */
-    padding: 10px 0px;
+    width: 90px;
+    height: 90px;
     margin: auto;
     display: block;
+}
+
+.site-content .kategori .voucher-kristie .titlekategorikristie{
+    height: 40px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333333;
+    justify-content: center;
+	align-items: center;
+	display: flex;
 }
 /* kristie voucher */
 
