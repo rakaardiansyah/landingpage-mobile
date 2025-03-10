@@ -10358,7 +10358,7 @@ BUTTON SWAP FLIGHT
     KUSUMA-STORE
  ====================================================*/
  .site-content {
-    font-family: 'Lato', sans-serif;
+    font-family: 'Sera', sans-serif;
     background-color: #f9f9f9;
     display: flex;
     justify-content: center;
@@ -10412,7 +10412,7 @@ BUTTON SWAP FLIGHT
     font-size: 14px;
     width: 100%;
     color: #888;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Sera', sans-serif;
 }
 
 .site-content .header-slider .icons i {
@@ -10515,6 +10515,80 @@ BUTTON SWAP FLIGHT
     67%, 100% { transform: translateX(-200%); }
 }
 
+.site-content .point-member {
+    height: 150px;
+}
+
+.site-content .point-member .row-point-member {
+   padding: 0px 5px;
+   display: -ms-flexbox;
+   display: flex;
+   -ms-flex-wrap: wrap;
+   flex-wrap: wrap;
+}
+
+.site-content .point-member .col {
+    display: grid;
+    place-items: center;
+}
+
+.site-content .point-member .card {
+    width: 90px;
+    height: 90px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    font-family: Arial, sans-serif;
+    background: #F4D6C8;
+    justify-content: center;
+    align-items: center;
+}
+
+.site-content .point-member .card img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    /* Memastikan gambar menyesuaikan ukuran */
+}
+
+/* Bagian teks di bawah gambar */
+.site-content .point-member .card-content {
+    padding: 0px 5px;
+}
+
+.site-content .point-member .card-content h6 {
+    height: 45px;
+    margin: 5px 0px;
+    font-size: 18px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+    display: flex
+;
+}
+
+.site-content .point-member .card-content p {
+    font-size: 14px;
+    color: #555;
+}
+
+.site-content .point-member .card-content a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #F4D6C8;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.site-content .point-member .card-content a:hover {
+    background: #F9EEE9;
+}
+
+
 .site-content .kategori-brand {
     text-align: center;
 }
@@ -10565,6 +10639,7 @@ BUTTON SWAP FLIGHT
 .site-content .product-section {
     margin: auto;
     background: white;
+    padding-bottom: 50px;
 }
 
 .site-content .product-section .tabs {
@@ -10807,6 +10882,7 @@ BUTTON SWAP FLIGHT
 .site-content .container-store .product-card .price {
     color: #333;
     font-size: 10px;
+    font-weight: 500;
 }
 
 .site-content .container-store .product-card .rating {

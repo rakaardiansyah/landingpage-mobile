@@ -379,6 +379,31 @@ Author Email:   contact@tecydevs.com
         });
 
         $(document).ready(function(){
+            $('.tab-brandkusuma-slider').slick({
+                slidesToShow: 4,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 4000,
+                dots: true,
+                arrows: false,
+                responsive: [
+                    {   
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    }
+                ]
+            });
+        });
+
+        $(document).ready(function(){
             $('.brandkusuma-slider').slick({
                 slidesToShow: 3,
                 slidesToScroll: 1,
