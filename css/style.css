@@ -10365,19 +10365,21 @@ BUTTON SWAP FLIGHT
 }
 
 .site-content .container-store {
-    width: 600px;
-    width: -webkit-fill-available;
+    width: 100%;
     background: white;
-    padding-bottom: 80px;
-    padding-right: 0px;
-    padding-left: 0px;
 }
 
 .site-content .header-slider {
     width: 100%;
-    max-width: 800px;
+    /* max-width: 800px; */
     margin: auto;
     overflow: hidden;
+}
+
+.site-content .row-kusumastore{
+    justify-content: left;
+    align-items: center;
+    display: flex;
 }
 
 .site-content .header-slider .top-nav {
@@ -10427,6 +10429,36 @@ BUTTON SWAP FLIGHT
     padding: 5px;
 }
 
+.site-content .header-slider .back-btn i{
+    font-size: 30px;
+}
+
+.site-content .header-slider .menu-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.site-content .header-slider .menu-btn i{
+    font-size: 30px;
+}
+
+.site-content .header-slider .hint-btn {
+    background: none;
+    border: none;
+    color: #8B0000;
+    font-size: 20px;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.site-content .header-slider .hint-btn i{
+    font-size: 30px;
+}
+
 .site-content .header-slider .nav-title {
     flex-grow: 1;
     text-align: center;
@@ -10444,6 +10476,7 @@ BUTTON SWAP FLIGHT
     height: auto;
     display: block;
 }
+
 
 
 /* .site-content .slick-prev, .slick-next {
@@ -10483,7 +10516,6 @@ BUTTON SWAP FLIGHT
 }
 
 .site-content .kategori-brand {
-    padding: 0px 15px;
     text-align: center;
 }
 
@@ -10530,36 +10562,30 @@ BUTTON SWAP FLIGHT
     color: #7D0E0E !important;
 }
 
-.site-content .row-kusumastore{
-    justify-content: left;
-    align-items: center;
-    display: flex;
-    padding: 1px 0px;
-}
-
-
 .site-content .product-section {
     margin: auto;
     background: white;
 }
 
 .site-content .product-section .tabs {
-    width: fit-content;
     display: flex;
     justify-content: left;
-    padding: 10px 10px;
+    padding: 10px 0px;
 }
 
 .site-content .product-section .tab {
     border: 2px solid #7D0E0E !important; 
     background: #fff;
     color: #7D0E0E;
-    padding: 10px 10px;
-    border: none;
     margin: 5px;
+    height: 60px;
     border-radius: 5px;
     cursor: pointer;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    text-align: center;
+	justify-content: center;
+	display: flex;
+	flex-direction: column;
 }
 
 .site-content .product-section .tab.active {
@@ -10570,7 +10596,8 @@ BUTTON SWAP FLIGHT
 /* Product List */
 .site-content .product-section .product-list {
     display: none;
-    border-radius: 5px;
+    /* display: flex; */
+    gap: 15px;
 }
 
 .site-content .product-section .product-list.active {
@@ -10604,7 +10631,6 @@ BUTTON SWAP FLIGHT
 /* Bottom Navigation */
 .site-content .bottom-nav {
     width: 100%;
-    /* width: 600px; */
     position: fixed;
     bottom: 0;
     left: 0;
@@ -10641,7 +10667,7 @@ BUTTON SWAP FLIGHT
     height: 85px;
     width: 85px;
     position: absolute;
-    top: -70px;
+    top: -60px;
     background: #8B0000;
     color: white;
     padding: 15px;
@@ -10677,12 +10703,13 @@ BUTTON SWAP FLIGHT
 .site-content .kategori .voucher-kristie .bgimgvoucher{
     background: #F5F5F5;
     border-radius: 5px;
+    margin: 0px 5px;
     height: auto;
 }
 
 .site-content .kategori .voucher-kristie .bgimgvoucher img {
     width: 90px;
-    height: 90px;
+    height: auto;
     margin: auto;
     display: block;
 }
@@ -22685,6 +22712,21 @@ ul.slick-dots {
     .mobile-app-content .btn-box .theme-btn:nth-child(2) {
         margin-left: 8px;
     }
+
+/*===== mobile-app Bottom Navigation Kusumastore =====*/
+.site-content .bottom-nav {
+    width: 100%;
+    /* width: 600px; */
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: #8B0000;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.1);
+}    
 
 @media (max-width: 375px) {
     .mobile-app-content .btn-box .theme-btn:nth-child(2) {

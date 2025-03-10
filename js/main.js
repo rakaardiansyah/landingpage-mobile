@@ -299,47 +299,8 @@ Author Email:   contact@tecydevs.com
             });
         }
 
-        $(document).ready(function(){
-            $(".Modern-Slider").slick({
-                autoplay: true,         
-                autoplaySpeed: 2100,   
-                speed: 600,         
-                slidesToShow: 4,        
-                slidesToScroll: 1,   
-                pauseOnHover: false,  
-                dots: true,           
-                pauseOnDotsHover: true,
-                cssEase: 'linear',
-                draggable: false,     
-                // prevArrow: '<button class="slick-prev">❮</button>',
-                // nextArrow: '<button class="slick-next">❯</button>',
-                responsive: [
-                    {
-                        breakpoint: 1024,
-                        settings: {
-                            slidesToShow: 3
-                        }
-                    },
-                    {
-                        breakpoint: 768,
-                        settings: {
-                            slidesToShow: 2
-                        }
-                    },
-                    {
-                        breakpoint: 480,
-                        settings: {
-                            slidesToShow: 1
-                        }
-                    }
-                ]
-            });
-            // $('.Modern-Slider a').on('click', function(e){
-            //     e.stopPropagation(); 
-            // });
-        });
-        
 
+        /*==== KUSUMA STORE SLICK =====*/
         $(document).ready(function(){
             $(".sliderHeader").slick({
                 autoplay: true,         
@@ -357,7 +318,91 @@ Author Email:   contact@tecydevs.com
                 fade: true              
             });
         });
+
+        $(document).ready(function(){
+            $(".kategori-slider").slick({
+                autoplay: true,         
+                autoplaySpeed: 2100,   
+                speed: 600,         
+                slidesToShow: 3,        
+                slidesToScroll: 1,   
+                pauseOnHover: false,  
+                dots: true,           
+                pauseOnDotsHover: true,
+                cssEase: 'ease-in-out',
+                draggable: false,     
+                // prevArrow: '<button class="slick-prev">❮</button>',
+                // nextArrow: '<button class="slick-next">❯</button>',
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+                ]
+            });
+            // $('.Modern-Slider a').on('click', function(e){
+            //     e.stopPropagation(); 
+            // });
+        });
        
+        $(document).ready(function(){
+            $('.voucher-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: true,
+                autoplaySpeed: 4000,
+                dots: true,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 4
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    }
+                ]
+            });
+        });
+
+        $(document).ready(function(){
+            $('.brandkusuma-slider').slick({
+                slidesToShow: 3,
+                slidesToScroll: 1,
+                autoplay: false,
+                autoplaySpeed: 4000,
+                dots: true,
+                arrows: false,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 3
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 2
+                        }
+                    }
+                ]
+            });
+        });
+
         $(document).ready(function(){
             $('.produk-slider').slick({
                 slidesToShow: 3,
@@ -370,18 +415,21 @@ Author Email:   contact@tecydevs.com
                     {
                         breakpoint: 768,
                         settings: {
-                            slidesToShow: 2
+                            slidesToShow: 3
                         }
                     },
                     {
                         breakpoint: 480,
                         settings: {
-                            slidesToShow: 1
+                            slidesToShow: 2
                         }
                     }
                 ]
             });
         });
+
+        /*==== END KUSUMA STORE SLICK =====*/
+
 
         /*==== Car-carousel =====*/
         if ($(carCarousel).length) {

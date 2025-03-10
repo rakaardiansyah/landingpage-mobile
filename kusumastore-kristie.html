@@ -31,8 +31,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 
     <!-- Slick CSS -->
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"/>
-    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"/>
+    <link rel="stylesheet" href="css/slick-theme.min.css">
+    <link rel="stylesheet" href="css/slick.min.css">
 
 </head>
 
@@ -45,9 +45,12 @@
             <!-- Top Navigation -->
             <nav class="top-nav">
                 <button class="back-btn" onclick="goBack()">
-                    <i class="fa fa-arrow-left"></i>
+                    <i class="fa fa-angle-left" aria-hidden="true"></i>
                 </button>
                 <span class="nav-title">Kristie</span>
+                <button class="hint-btn">
+                    <i class="fa fa-angle-right" aria-hidden="true"></i>
+                </button>
             </nav>
             
             <div class="sliderHeader">
@@ -72,7 +75,7 @@
 
         <!-- Category Slider -->
         <section class="kategori-brand">
-            <div class="kategori produk-slider">
+            <div class="kategori voucher-slider">
                 <div class="voucher-kristie">
                     <div class="bgimgvoucher">
                         <img src="/images/kusumastore/kategori-kristie/kategori-skincare.png" alt="Brand 1">
