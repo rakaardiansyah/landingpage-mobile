@@ -1,5 +1,6 @@
 # kusumapurnamaamulia
-testing
+
+"Implementation of the UI design slicing from Figma into code, in accordance with the intended layout and functionality."
 
 
 NEW : testing responsive html store
